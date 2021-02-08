@@ -6,8 +6,16 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 
 
 ### How to setup: 
-You can find the WiFi credentials for the inital soft access point in the /data folder. 
+You can find the WiFi credentials for the inital soft access point in the /data folder.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
+```
+
+Soft AP network parameters 
+
+
+
+```
+openssl s_client -connect slack.com:443 < /dev/null 2>/dev/null | openssl x509 -fingerprint -noout -in /dev/stdin | sed 's/:/ /g' | cut -d '=' -f 2
 ```
