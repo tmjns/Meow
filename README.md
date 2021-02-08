@@ -1,2 +1,2 @@
 # Meow
-Meow — the Slack Bot with the smart paw.
+The Slack Bot with the smart paw. Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
