@@ -6,13 +6,13 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 
 
 ### How to setup: 
-You can find the settings.json with the WiFi credentials for the inital soft access point in the /data folder.
+You can find the 'settings.json' with the WiFi credentials for the inital soft access point in the /data folder.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
 
-Soft AP network parameters 
+Soft AP network IP: 
 ```
 76.76.76.76
 ```
@@ -21,8 +21,4 @@ If you need to update the Slack SSL fingerprint run:
 ```
 openssl s_client -connect slack.com:443 < /dev/null 2>/dev/null | openssl x509 -fingerprint -noout -in /dev/stdin | sed 's/:/ /g' | cut -d '=' -f 2
 ```
-Copy and paste:
-
-```c++
-#define SLACK_SSL_FINGERPRINT "C10D5349D23EE52BA261D59E6F990D3DFD8BB2B3"
-```
+and update the fingerprint in the 'common.h'
