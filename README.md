@@ -33,4 +33,4 @@ meow.local/
 ```
 
 
-![Meow with the smart paw!](https://meow.build/assets/images/local.png "Meow with the smart paw!")
+![76.76.76.76 & meow.local/](https://meow.build/assets/images/meow-interface.png "76.76.76.76 & meow.local/")
