@@ -32,5 +32,4 @@ Since I'm using the ESP32 Multicast DNS library
 meow.local/
 ```
 
-
 ![76.76.76.76 & meow.local/](https://meow.build/assets/images/meow-interface.png "76.76.76.76 & meow.local/")
