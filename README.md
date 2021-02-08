@@ -1,5 +1,3 @@
-Reference-style: 
-![alt text][meow]
 
 [meow]:https://meow.build/assets/images/meow-poster.png
 
