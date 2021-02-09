@@ -5,11 +5,12 @@
 Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
 
 
-### Setup: 
+### Setup:
+------
 This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
 #### settings.json
-You can find the WiFi credentials for the inital soft access point in the /data folder.
+You can find the WiFi credentials for the inital soft access point in the /data folder. After a successfull upload, you will find 'Meow' in your WiFI network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
