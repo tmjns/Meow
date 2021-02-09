@@ -17,6 +17,7 @@ You can find the WiFi credentials for the inital soft access point in the /data 
 ```
 76.76.76.76
 ```
+-> After you've entered your credentials, the esp redirects / reboots -> meow.local (make sure you're now connected to your network)
 
 #### Slack SSL fingerprint:
 If you need to update the Slack SSL fingerprint run:
