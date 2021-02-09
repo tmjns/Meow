@@ -6,9 +6,11 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 
 
 ### Setup: 
-You can find the WiFi credentials for the inital soft access point in the /data folder.
+This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
 #### settings.json
+You can find the WiFi credentials for the inital soft access point in the /data folder.
+
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
