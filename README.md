@@ -25,14 +25,15 @@ Now you'll be asked to enter your network credentials in order to connect Meow w
 > Note: During the reboot process, the browser peforms a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Please double check your WiFi connection and reload the page.
 
 #### Multicast DNS:
-Since I'm using the ESP32 Multicast DNS library, 
+Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
 ```
 meow.local/
 ```
 
-
-
-
+#### API token:
+```
+https://yourworkspace.slack.com/apps/A0F7YS25R-bots
+```
 
 #### Slack SSL fingerprint:
 If you need to update the Slack SSL fingerprint run:
@@ -46,5 +47,4 @@ and update the fingerprint in the 'common.h'
 
 ![76.76.76.76 & meow.local/](https://meow.build/assets/images/meow-interface.png "76.76.76.76 & meow.local/")
 
-#### API token:
-https://yourworkspace.slack.com/apps/A0F7YS25R-bots
+
