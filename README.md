@@ -6,20 +6,23 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 
 
 ### Setup:
-------
-This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
+This project was built with the PlatformIO IDE. So, I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
-#### settings.json
-You can find the WiFi credentials for the inital soft access point in the /data folder. After a successfull upload, you will find 'Meow' in your WiFI network list.
+#### Soft Access Point
+You can find the WiFi credentials for the initial soft access point in the /data folder. After a successful upload, 'Meow' will appear in your WiFI network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
 
-#### Soft AP network IP: 
+#### Soft Access Point Network IP: 
+Once connected with 'Meow' open up your browser with this IP
+
 ```
 76.76.76.76
 ```
+
+
 -> After you've entered your credentials, the esp redirects / reboots -> meow.local (make sure you're now connected to your network)
 
 #### Slack SSL fingerprint:
@@ -39,4 +42,4 @@ meow.local/
 ![76.76.76.76 & meow.local/](https://meow.build/assets/images/meow-interface.png "76.76.76.76 & meow.local/")
 
 #### API token:
-https://slackeriaworkspace.slack.com/apps/A0F7YS25R-bots
+https://yourworkspace.slack.com/apps/A0F7YS25R-bots
