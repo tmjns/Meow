@@ -9,28 +9,30 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 This project was built with the PlatformIO IDE. So, I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
 #### Soft Access Point:
-You can find the WiFi credentials for the initial soft access point in the /data folder. After a successful upload to your ESP32, 'Meow' will appear in your WiFI network list.
+You can find the WiFi credentials for the initial soft access point in the /data folder (settings.json). After a successful upload to your ESP32, 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
 
 #### Soft Access Point Network IP: 
-Once connected with 'Meow', open up your browser and type
+Once connected with 'Meow', open up your browser and type:
 
 ```
 76.76.76.76
 ```
-Now you'll be asked to enter your network credentials in order to connect Meow with the internet.
-> Note: During the reboot process, Meow is going to redirect you to
+Now you'll be asked to enter your network credentials in order to connect Meow with your network.
+> Note: During the reboot process, the browser peforms a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Please double check your WiFi connection and reload the page.
 
 #### Multicast DNS:
-Since I'm using the ESP32 Multicast DNS library
+Since I'm using the ESP32 Multicast DNS library, 
 ```
 meow.local/
 ```
 
--> After you've entered your credentials, the esp redirects / reboots -> meow.local (make sure you're now connected to your network)
+
+
+
 
 #### Slack SSL fingerprint:
 If you need to update the Slack SSL fingerprint run:
