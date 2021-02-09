@@ -31,7 +31,7 @@ meow.local/
 ```
 
 #### API token:
-```
+```url
 https://yourworkspace.slack.com/apps/A0F7YS25R-bots
 ```
 
