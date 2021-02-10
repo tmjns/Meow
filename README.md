@@ -28,6 +28,7 @@ Open the URL:
 ```
 meow.local/
 ```
+Now you need to enter your API token to create a connection to your Slack environment. Choose a specific User-ID you want to listen for.
 > Note: Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
 
 #### API token:
@@ -38,6 +39,12 @@ You need to create a custom Slack app integration to generate the necessary API 
 #### Slack User-ID:
 The simplest way to find your specific User-ID is to follow these steps:
 [https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
+
+
+## Usage:
+Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving at you. Here is a quick working example:
+```Bobby  2:07 PM
+Hi @Tom how are you doing?```
 
 
 ## Troubleshooting:
