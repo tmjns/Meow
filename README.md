@@ -43,9 +43,12 @@ The simplest way to find your specific User-ID is to follow these steps:
 
 ## Usage:
 Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving at you. Here is a quick working example:
-```Bobby  2:07 PM
-Hi @Tom how are you doing?```
 
+Team mate mention:
+```Hi @Tom how are you doing?```
+
+You gave a reaction to the message:
+```:+1:```
 
 ## Troubleshooting:
 
