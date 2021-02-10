@@ -4,14 +4,11 @@
 Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
 
 
-### Setup:
-This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
+## Setup:
+Clone this repo ```https://github.com/tmjns/Meow.git``` and open the ```src``` with your code editor. 
+> Note: This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
-
-
-
-
-#### Soft Access Point:
+### Soft Access Point:
 You can find the WiFi settings for the initial soft access point in the /data folder. After a successful upload to your ESP32 (don't forget to upload the data folder to the SPIFFS), 'Meow' will appear in your WiFi network list.
 
 ```json
@@ -58,7 +55,7 @@ https://yourworkspace.slack.com/apps/A0F7YS25R-bots
 
 
 
-### Troubleshooting:
+## Troubleshooting:
 
 ##### Slack SSL Fingerprint:
 If you need to update the Slack SSL fingerprint run:
