@@ -5,10 +5,10 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 
 
 ### Setup:
-This project was built with the PlatformIO IDE. So, I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
+This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
 #### Soft Access Point:
-You can find the WiFi credentials for the initial soft access point in the /data folder (settings.json). After a successful upload to your ESP32, 'Meow' will appear in your WiFi network list.
+You can find the WiFi settings for the initial soft access point in the /data folder. After a successful upload to your ESP32 (don't forget to upload the data folder to the SPIFFS), 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
@@ -21,13 +21,14 @@ Once connected with 'Meow', open up your browser and type:
 76.76.76.76
 ```
 Now you'll be asked to enter your network credentials in order to connect Meow with your network.
-> Note: During the reboot process, the browser peforms a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Please double check your WiFi connection and reload the page.
+> Note: During the save & reboot process, the browser peforms a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Please double check your WiFi connection and reload the page.
 
 #### Multicast DNS:
-Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
+Open the URL:
 ```
 meow.local/
 ```
+> Note:Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
 
 #### API token:
 
