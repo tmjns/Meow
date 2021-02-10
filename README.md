@@ -7,12 +7,16 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 ### Setup:
 This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start.
 
+------
+
 #### Soft Access Point:
 You can find the WiFi settings for the initial soft access point in the /data folder. After a successful upload to your ESP32 (don't forget to upload the data folder to the SPIFFS), 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
+
+------
 
 #### Soft Access Point Network IP: 
 Once connected with 'Meow', open up your browser and type:
