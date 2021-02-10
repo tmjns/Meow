@@ -20,8 +20,8 @@ Once connected with 'Meow', open up your browser and type:
 ```
 76.76.76.76
 ```
-You'll be asked to enter your network credentials in order to connect Meow with your network.
-> Note: During the save and reboot process, the browser peforms a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Double check your WiFi connection and reload the page.
+You'll be asked to enter your network credentials to connect Meow with your network.
+> Note: During the save and reboot process, the browser performs a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Double-check your WiFi connection and reload the page.
 
 #### Multicast DNS:
 Open the URL:
@@ -31,16 +31,17 @@ meow.local/
 > Note: Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
 
 #### API token:
-You need to create a custom Slack app integration in order to generate the necessary API token. Check out the link below:
+You need to create a custom Slack app integration to generate the necessary API token. Check out the link below:
 ```
 https://yourworkspace.slack.com/apps/A0F7YS25R-bots
 ```
 
 #### Slack User-ID:
-The simplest way to find your specific User-ID is to follow these simple steps:
+The simplest way to find out your specific User-ID is to follow these steps:
 ```
 https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c
 ```
+
 
 ## Troubleshooting:
 
@@ -49,7 +50,7 @@ If you need to update the Slack SSL fingerprint run:
 ```
 openssl s_client -connect slack.com:443 < /dev/null 2>/dev/null | openssl x509 -fingerprint -noout -in /dev/stdin | sed 's/:/ /g' | cut -d '=' -f 2
 ```
-and update the fingerprint in the 'common.h'
+and update the fingerprint in the ```common.h``` file.
 
 #### Lib dependencies:
-Make sure your lib deps are correct and correctly installed
+Make sure your lib deps are correctly installed. Otherwise, they might throw some errors during the build process.
