@@ -39,7 +39,7 @@ The simplest way to find your specific User-ID is to follow these steps:
 [https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
 
 ## Usage:
-Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving at you. Here is a quick working example:
+Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving:
 
 Teammate mention (Meow starts waving):
 ```"Hi @Tom how are you doing?"```
