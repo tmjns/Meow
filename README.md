@@ -32,14 +32,12 @@ meow.local/
 
 #### API token:
 You need to create a custom Slack app integration to generate the necessary API token. For help check out the link below:
-```
 [https://yourworkspace.slack.com/apps/A0F7YS25R-bots](https://yourworkspace.slack.com/apps/A0F7YS25R-bots)
-```
+
 
 #### Slack User-ID:
 The simplest way to find your specific User-ID is to follow these steps:
 [https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
-
 
 
 ## Troubleshooting:
