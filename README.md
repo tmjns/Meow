@@ -3,7 +3,6 @@
 # Meow — the Slack Bot with the smart paw.
 Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
 
-
 ## Setup:
 This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start. Clone this repo and open the ```src``` folder.
 
@@ -35,19 +34,17 @@ Now you need to enter your API token to create a connection to your Slack enviro
 You need to create a custom Slack app integration to generate the necessary API token. For help check out the link below:
 [https://yourworkspace.slack.com/apps/A0F7YS25R-bots](https://yourworkspace.slack.com/apps/A0F7YS25R-bots)
 
-
 #### Slack User-ID:
 The simplest way to find your specific User-ID is to follow these steps:
 [https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
 
-
 ## Usage:
 Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving at you. Here is a quick working example:
 
-Team mate mention:
+Teammate mention (starts waving):
 ```Hi @Tom how are you doing?```
 
-You gave a reaction to the message:
+You gave a reaction to the message (Meow stops waving):
 ```:+1:```
 
 ## Troubleshooting:
