@@ -8,7 +8,7 @@ Meow is a little modified Maneki-neko. At first sight, she looks like any other 
 This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start. Clone this repo and open the ```src``` folder with your code editor. 
 
 #### Soft Access Point:
-You'll find the WiFi settings for the initial soft access point in the ```data``` folder. After a successful build and upload, 'Meow' will appear in your WiFi network list.
+You'll find the WiFi settings for the initial soft access point in the ```data``` folder. After a successful upload to the ESP32, 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
@@ -33,13 +33,13 @@ meow.local/
 #### API token:
 You need to create a custom Slack app integration to generate the necessary API token. Check out the link below:
 ```
-https://yourworkspace.slack.com/apps/A0F7YS25R-bots
+[https://yourworkspace.slack.com/apps/A0F7YS25R-bots](https://yourworkspace.slack.com/apps/A0F7YS25R-bots)
 ```
 
 #### Slack User-ID:
 The simplest way to find out your specific User-ID is to follow these steps:
 ```
-https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c
+[How to find my User-ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
 ```
 
 
