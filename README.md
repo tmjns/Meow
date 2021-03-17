@@ -58,3 +58,7 @@ and update the fingerprint in the ```common.h``` file.
 
 #### Lib dependencies:
 Make sure your lib deps are correctly installed. Otherwise, they might throw some errors during the build process.
+
+#### WebSockets by Markus Sattler:
+If PlatformIO outputs an error referring to the WebSockets library, just install WebSockets by Markus Sattler via the Libraries tab.
+
