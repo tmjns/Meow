@@ -13,7 +13,7 @@ pio run -t uploadfs
 ```
 
 #### Soft Access Point:
-You'll find the WiFi settings for the initial soft access point in the ```data``` folder. After a successful upload, 'Meow' will appear in your WiFi network list.
+You'll find the WiFi settings for the initial soft access point in the ```data``` folder. After a successful build and upload, 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
