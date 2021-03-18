@@ -12,6 +12,10 @@ You'll find the WiFi settings for the initial soft access point in the ```data``
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
+Don't forget to upload the spiffs image via the PlatformIO Core CLI:
+```
+pio run -t uploadfs
+```
 
 #### Network IP: 
 Once connected with 'Meow', open up your browser and type:
