@@ -12,7 +12,9 @@ You'll find the WiFi settings for the initial soft access point in the ```data``
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
-Don't forget to upload the spiffs image via the PlatformIO Core CLI:
+
+#### SPIFFS
+Upload all contents from the ```data``` folder running this command via PlatformIO Core CLI:
 ```
 pio run -t uploadfs
 ```
@@ -62,7 +64,3 @@ and update the fingerprint in the ```common.h``` file.
 
 #### Lib dependencies:
 Make sure your lib deps are correctly installed. Otherwise, they might throw some errors during the build process.
-
-#### WebSockets by Markus Sattler:
-If PlatformIO outputs an error referring to the WebSockets library, just install WebSockets by Markus Sattler via the Libraries tab.
-
