@@ -59,15 +59,21 @@ Every time you receive a message in a Slack channel, Meow is listening to your p
 
 Troubleshooting
 ---------------
-#### Espressif 32 (1.11.2):
-Make sure you're using the 1.11.2. version of the Espressif 32 platform in your environment. Other versions could cause some errors.
+<details>
+<summary>Espressif 32 (1.11.2)</summary>
+<p>Make sure you're using the 1.11.2. version of the Espressif 32 platform in your environment. Other versions could cause some errors.</p>  
+</details>
 
-#### Slack SSL Fingerprint:
-If you need to update the Slack SSL fingerprint run (MacOS terminal):
+<details>
+<summary>Slack SSL Fingerprint</summary>
+<p>If you need to update the Slack SSL fingerprint run (MacOS terminal):</p>
 ```
 openssl s_client -connect slack.com:443 < /dev/null 2>/dev/null | openssl x509 -fingerprint -noout -in /dev/stdin | sed 's/:/ /g' | cut -d '=' -f 2
 ```
-and update the fingerprint in the ```common.h``` file.
-
-#### meow.local/ not working:
-Check the list of your connected devices in your router settings and connect via the IP address. 
+</details>
+  
+<details>
+<summary>meow.local/ not working</summary>
+<p>Check the list of your connected devices in your router settings and connect via the IP address. 
+</p>  
+</details>
