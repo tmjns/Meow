@@ -1,25 +1,30 @@
 ![Meow with the smart paw!](https://miro.medium.com/max/1400/1*yKEke4YjMCd7ZJ4FutNlcQ.gif "Meow with the smart paw!")
 
-# Meow — the Slack Bot with the smart paw.
+Meow — the Slack Bot with the smart paw.
+----------------------------------------
 Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
 
-## Setup:
+Setup
+-----
 This project was built with the PlatformIO IDE. I recommend you to install the PlatformIO extension for Visual Studio Code before you start. Clone this repo and open the ```src``` folder.
 
-#### SPIFFS:
+SPIFFS
+------
 Upload all files from the ```data``` folder running this command via PlatformIO Core CLI:
 ```
 pio run -t uploadfs
 ```
 
-#### Soft Access Point:
+Soft Access Point
+-----------------
 You'll find the WiFi settings for the initial soft access point in the ```data``` folder. After a successful build and upload, 'Meow' will appear in your WiFi network list.
 
 ```json
 {"wifi_ssid" : "Meow", "wifi_pass" : "smartpaw"}
 ```
 
-#### Network IP: 
+Network IP
+----------
 Once connected with 'Meow', open up your browser and type:
 
 ```
@@ -28,7 +33,8 @@ Once connected with 'Meow', open up your browser and type:
 You'll be asked to enter your network credentials to connect Meow with your network.
 > Note: During the save and reboot process, the browser performs a redirect to 'meow.local/'. In some cases, if there is no WiFi connection, your browser will display an error screen... Double-check your WiFi connection and reload the page.
 
-#### Multicast DNS:
+Multicast DNS
+-------------
 Open the URL:
 ```
 meow.local/
@@ -36,15 +42,18 @@ meow.local/
 Now you need to enter your API token to create a connection to your Slack environment. Choose a specific User-ID you want to listen for.
 > Note: Since I'm using the ESP32 Multicast DNS library, you might get some trouble using this website on mobile devices.
 
-#### API token:
+API token
+---------
 You need to create a custom Slack app integration to generate the necessary API token. For help check out the link below:
 [https://yourworkspace.slack.com/apps/A0F7YS25R-bots](https://yourworkspace.slack.com/apps/A0F7YS25R-bots)
 
-#### Slack User-ID:
+Slack User-ID
+-------------
 The simplest way to find your specific User-ID is to follow these steps:
 [https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c)
 
-## Usage:
+Usage
+-----
 Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving:
 
 Teammate mention (Meow starts waving):
@@ -53,7 +62,8 @@ Teammate mention (Meow starts waving):
 You gave a reaction to the message (Meow stops waving):
 ```:+1:```
 
-## Troubleshooting:
+Troubleshooting
+---------------
 
 #### Slack SSL Fingerprint:
 If you need to update the Slack SSL fingerprint run (MacOS terminal):
