@@ -54,14 +54,13 @@ The simplest way to find your specific User-ID is to follow these steps:
 
 Usage
 -----
-Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID and starts waving:
-Teammate mention (Meow starts waving):
-```"Hi @Tom how are you doing?"```
-You gave a reaction to the message (Meow stops waving):
-```:+1:```
+Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID. Teammate mention (Meow starts waving): 
+```"Hi @Tom how are you doing?"``` Reaction to the message (Meow stops waving): ```:+1:```
 
 Troubleshooting
 ---------------
+#### Espressif 32 (1.11.2):
+Make sure you're using the 1.11.2. version of the Espressif 32 platform in your environment. Other versions could cause some errors.
 
 #### Slack SSL Fingerprint:
 If you need to update the Slack SSL fingerprint run (MacOS terminal):
@@ -70,5 +69,5 @@ openssl s_client -connect slack.com:443 < /dev/null 2>/dev/null | openssl x509 -
 ```
 and update the fingerprint in the ```common.h``` file.
 
-#### Lib dependencies:
-Make sure your lib deps are correctly installed. Otherwise, they might throw some errors during the build process.
+#### meow.local/ not working:
+Check the list of your connected devices in your router settings and connect via the IP address. 
