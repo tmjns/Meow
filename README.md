@@ -2,6 +2,7 @@
 
 Meow — the Slack Bot with the smart paw.
 ----------------------------------------
+
 Meow is a little modified Maneki-neko. At first sight, she looks like any other happy lucky cat but once she’s connected to a WiFi network and integrated to your Slack environment, Meow starts to wave directly after you’ve received a Slack message.
 
 Setup
@@ -54,10 +55,10 @@ The simplest way to find your specific User-ID is to follow these steps:
 
 Usage
 -----
-![Meow with the smart paw!](https://miro.medium.com/max/1080/1*Ce81ZzjCN6fMHqInYjiUMA.gif "Meow with the smart paw!")
+Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID.
 
-Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID. Teammate mention (Meow starts waving): 
-```"Hi @Tom how are you doing?"``` Reaction to the message (Meow stops waving): ```:+1:```
+![Reaction to the message](https://miro.medium.com/max/750/1*c-PUqQ5ZDfdAjYNujLC_dw.gif)
+
 
 Troubleshooting
 ---------------
