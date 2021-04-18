@@ -54,7 +54,9 @@ The simplest way to find your specific User-ID is to follow these steps:
 
 Usage
 -----
-![](https://hackster.imgix.net/uploads/attachments/1100062/1_gLQBiub0MV.gif?auto=compress&gifq=35&w=740&h=555&fit=max&fm=mp4)
+<video width="320" height="240" controls>
+  <source src="https://hackster.imgix.net/uploads/attachments/1100062/1_gLQBiub0MV.gif?auto=compress&gifq=35&w=740&h=555&fit=max&fm=mp4" type="video/mp4">
+</video>
 Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID. Teammate mention (Meow starts waving): 
 ```"Hi @Tom how are you doing?"``` Reaction to the message (Meow stops waving): ```:+1:```
 
