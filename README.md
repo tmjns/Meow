@@ -57,7 +57,9 @@ Usage
 -----
 Every time you receive a message in a Slack channel, Meow is listening to your predefined User-ID.
 
-![Reaction to the message](https://miro.medium.com/max/750/1*c-PUqQ5ZDfdAjYNujLC_dw.gif)
+![Team mention](https://miro.medium.com/max/750/1*y_Y9iI-l_sPAzLZEguTqOw.gif)
+
+![Reaction to the message](https://miro.medium.com/max/750/1*-ro9WQ6b3m2hpttaiLofhA.gif)
 
 
 Troubleshooting
