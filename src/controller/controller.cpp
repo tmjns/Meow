@@ -9,6 +9,7 @@ void Controller::start() {
     
     wifi.start(wifi_ssid,wifi_pass);
     webserver.setup(80);
+    module.init();
     module.connectToSlack();
 }
 
